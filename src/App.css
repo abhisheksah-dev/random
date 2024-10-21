@@ -1,0 +1,348 @@
+*{
+  box-sizing: border-box;
+ 
+  background-color: hsl(0deg 0% 100%);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'poppins',sans-serif;
+  margin-left: 70px;
+  margin-right: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: hsl(0deg 0% 100%);
+}
+.the{
+  color:hsl(103.3deg 48.12% 53.14%) ;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.kissan{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.signin{
+  background-color: hsl(102.25deg 48.3% 71.18%);
+  font-family: poppins;
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.desc{
+  margin-top: 100px;
+  margin-left: 70px;
+  
+  font-family: 'M PLUS Rounded 1c',sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+.main-head{
+   font-weight: 700;
+   font-size: 60px;
+}
+
+.main-sub-head{
+  font-size: 60px;
+  font-weight: 700;
+  color: hsl(128.28deg 54.72% 31.18%);
+}
+
+.empowering{
+  margin-top: 40px;
+    color:hsl(108deg 5.43% 36.08%);
+    font-weight: 500;
+}
+
+.button-div{
+  margin: 3px;
+  padding: 2px;
+}
+
+.button-info{
+  padding: 7px 10px 7px 10px;
+  margin-top: 25px;
+  background-color: hsl(109.88deg 46.89% 65.29%) ;
+  border-radius: 18px;
+  border: none;
+  font-family: poppins;
+   font-weight: 600;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.star{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.main-last{
+  display: flex;
+  margin: 15px;
+  color:hsl(0deg 0.84% 46.67%) ;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 350px;
+}
+
+.main-img{
+  width: 270px; 
+  height: 450px;
+  overflow: hidden; 
+  border-radius: 150px 150px 0px 150px;
+  position: relative;
+  border: none;
+  box-shadow: 0 10px 15px rgba(5, 10, 10, 5.9);
+  margin-top: 50px;
+}
+
+.main-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main2-head{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: large;
+  font-family: poppins;
+}
+
+.card-container{
+  display: flex;                            gap: 50px; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card{
+  background:  #4CAF50;
+  
+  background-color: #4CAF50;
+  border-radius: 20px;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+
+.leaf-icon{
+  background:  #4CAF50;
+  width: 100px;
+  height: 100px;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+}
+.card h3{
+  background:  #4CAF50;
+  border: none;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+.card img{
+  background:  #4CAF50;
+  border: none;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+
+.main3{
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.main-content{
+  margin-top: 250px;
+  font-family: 'M PLUS Rounded 1c',sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-right: 20px;
+}
+.main3-img{
+  width: 450px; 
+  height: 450px;
+  overflow: hidden; 
+  border-radius: 15px 15px 15px 15px;
+  position: relative;
+  border: none;
+  box-shadow: 0 10px 15px rgba(5, 10, 10, 5.9);
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.main-content1{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.content2{
+  margin-bottom: 30px;
+  color: hsl(0deg 0% 72.55%);
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.main3-button button{
+  background: hsl(104.23deg 55.92% 51.96%);
+  margin: 5px;
+  padding: 15px;
+  font-family: 'M PLUS Rounded 1c',sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  color: whitesmoke;
+}
+
+.span-button{
+  background-color: hsl(112.87deg 57.06% 65.29%);
+  color: black;
+  padding: 5px;
+  border-radius: 8px;
+  
+}
+.card1{
+  background-color: hsl(142.08deg 52.48% 60.39%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  width: 400px;
+  height: 250px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.main-card1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.card1:hover {
+  transform: scale(1.05);
+}
+
+.card1 img{
+  width: 170px;
+  height: 130px;
+  margin-bottom: 15px;
+  background-color: hsl(142.08deg 52.48% 60.39%);
+}
+
+.card1 p{
+  font-family: 'M PLUS Rounded 1c',sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  background-color: hsl(142.08deg 52.48% 60.39%);
+}
+
+.main4-header{
+  font-family: 'M PLUS Rounded 1c',sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.footer-content{
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  background: hsl(158, 95%, 70%); /* Example background color */
+  border: none;
+
+}
+.footer-content1 {
+  background: hsl(158, 95%, 70%); /* Example background color */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+ 
+}
+
+.footer-content1 h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 1.5em; /* Adjust size if needed */
+  background-color: #4CAF50;
+}
+
+.footer-content1-title{
+  background-color: inherit;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c',sans-serif;
+}
+
+.icon{
+  font-size: 2rem;
+  margin-right: 1rem;
+  background-color: hsl(158, 95%, 70%);
+}
+
+.footer-content1 a{
+  background-color: hsl(158, 95%, 70%);
+  color: black;
+}
+
+.footer-content1 b{
+  background-color: hsl(158, 95%, 70%);
+  margin-bottom: 15px;
+}
+
+.signup-left{
+  padding: 70px 0 0 0;
+  background-color: hsl(106.67deg 56.25% 87.45%);
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.signup-left img{
+  width: 100px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: inherit;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1.2);
+
+}
