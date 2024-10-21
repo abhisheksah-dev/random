@@ -1,4 +1,12 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
 function Header() {
+  const navigate = useNavigate();
+
+  const handleSignInClick = () => {
+    navigate("/signup");
+  };
   return (
     <>
       <nav className="nav">
@@ -9,7 +17,9 @@ function Header() {
           </span>
         </div>
         <div className="sign">
-          <button className="signin">SIGN IN</button>
+          <button className="signin" onClick={handleSignInClick}>
+            SIGN IN
+          </button>
         </div>
       </nav>
     </>

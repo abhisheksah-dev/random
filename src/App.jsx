@@ -1,5 +1,5 @@
 import "./App.css";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -11,15 +11,25 @@ import Signup from "./components/Signup";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <Main />
-      <Main2 />
-      <Card />
-      <Main3 />
-      <Main4 />
-      <Footer />
-    </>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Main />
+              <Main2 />
+              <Card />
+              <Main3 />
+              <Main4 />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </Router>
   );
 }
 
