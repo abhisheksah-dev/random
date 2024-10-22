@@ -2,7 +2,7 @@ function Signup() {
   return (
     <>
       <div className="signup">
-        <div>
+        <div className="signup-content">
           <div className="signup-left">
             <div className="signup-left-img">
               <img
@@ -88,7 +88,7 @@ function Signup() {
               id="password"
               required
               className="login-page-input"
-              placeholder=""
+              placeholder="password"
             />
             <label htmlFor="password"></label>
             <p>password is required</p>
