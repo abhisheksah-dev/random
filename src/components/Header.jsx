@@ -9,15 +9,18 @@ function Header() {
   };
   return (
     <>
-      <nav className="nav">
-        <div className="header">
-          <span className="the">THE </span>
-          <span className="kissan">
+      <nav className="nav bacground-treanslucent">
+        <div className="header bacground-treanslucent">
+          <span className="the bacground-treanslucent">THE </span>
+          <span className="kissan bacground-treanslucent">
             <b> K</b>ISSAN-MITRA
           </span>
         </div>
-        <div className="sign">
-          <button className="signin" onClick={handleSignInClick}>
+        <div className="sign bacground-treanslucent">
+          <button
+            className="signin bacground-treanslucent"
+            onClick={handleSignInClick}
+          >
             SIGN IN
           </button>
         </div>

@@ -3,6 +3,9 @@
  
   background-color: hsl(0deg 0% 100%);
 }
+.bacground-treanslucent{
+  background-color: #ffffffcc;
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -12,7 +15,6 @@ nav{
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: hsl(0deg 0% 100%);
 }
 .the{
   color:hsl(103.3deg 48.12% 53.14%) ;
@@ -100,7 +102,7 @@ nav{
 }
 
 .main-img{
-  width: 270px; 
+  min-width: 270px; 
   height: 450px;
   overflow: hidden; 
   border-radius: 150px 150px 0px 150px;
@@ -108,6 +110,7 @@ nav{
   border: none;
   box-shadow: 0 10px 15px rgba(5, 10, 10, 5.9);
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 .main-img img{
@@ -130,6 +133,7 @@ nav{
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  align-items: center;
 }
 
 .card{
@@ -186,7 +190,7 @@ nav{
   margin-right: 20px;
 }
 .main3-img{
-  width: 450px; 
+  min-width: 200px; 
   height: 450px;
   overflow: hidden; 
   border-radius: 15px 15px 15px 15px;
@@ -481,7 +485,34 @@ label {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
+  .main-img{
+    display: none;
+  }
+}
+@media (max-width: 915px) {
+  .main3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main3-img{
+    margin-top: 50px;
+    margin-left:0;
+    margin-right: 0;
+    margin-bottom:0;
+    height: 500px;
+    width: 100%;
+  }
+  .main-content{
+    margin-top: 0;
+    font-size: 30px;
+    margin-right: 0px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
   nav{
   gap: 15px;
   margin-left: 10px;
@@ -539,7 +570,8 @@ label {
   display: none;
 }
 .main{
-  display: flex;
+  display: flex;    
+  justify-content: space-between; 
   align-items: center;
   margin: 0;
 }
@@ -569,11 +601,6 @@ margin-left:0;
   margin-top: 30px;
 }
 
-.main3{
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 
 .main-content{
   margin-top: 0;
@@ -583,8 +610,6 @@ margin-left:0;
 }
 
 .main3-img{
-  width: 150px; 
-  height: 150px;
   margin-top: 50px;
   margin-left:0;
   margin-bottom:0;
@@ -641,7 +666,28 @@ margin-left:0;
   margin-top: 0px;
 }
 
+}
 
-
-
+@media (max-width: 380px) {
+  nav{
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .the{
+    color:hsl(103.3deg 48.12% 53.14%) ;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .kissan{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .signin{
+    padding: 4px;
+    margin-top: 5px;
+    font-size: 15px;
+  }
 }
